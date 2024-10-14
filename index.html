@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">    
+    <title>Desafio Condiciones en JavaScript</title>
+</head>
+<body>
+    <div class="container">
+        <section class="seccionReq1">
+            <img class="imagen-logo" src="./assets/imgs/Imagen1.jpg" alt="Imagen de Uyuni">
+        </section>
+        <hr>        
+        <section class="seccionReq-2">
+            <h4>Puedes llevar hasta 10 stickers en total</h4>
+            <div class="cards">
+                <div class="card">
+                    <img class="img-sticker" src="./assets/imgs/sticker2.png" alt="Sticker1">
+                    <input id="card-1" type="number" min="0" max="10" value="0">                    
+                </div>
+                <div class="card">
+                    <img class="img-sticker" src="./assets/imgs/sticker3.png" alt="Sticker2">
+                    <input id="card-2" type="number" min="0" max="10" value="0">
+                </div>
+                <div class="card">
+                    <img class="img-sticker" src="./assets/imgs/sticker4.png" alt="Sticker3">
+                    <input id="card-3" type="number" min="0" max="10" value="0">
+                </div>
+            </div>
+            <p id="txt-verificar"></p>
+            <button id="btn-verificar">Verificar</button>
+        </section>
+        <hr>
+        <section class="SeccionReq-3">
+            <h4>Ingresa el password</h4>
+            <div class="password">
+                <select name="valor-1" id="valor-1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select name="valor-2" id="valor-2">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select name="valor-3" id="valor-3">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+            <button id="btn-ingresar">Ingresar</button><br>
+            <p id="txt-password"></p>
+        </section>
+    </div>
+    <script src="./assets/js/script.js">
+    </script>
+</body>
+</html>
